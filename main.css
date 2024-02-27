@@ -1,0 +1,157 @@
+/*RESET*/
+/*  style bungee:
+font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header h1,
+section h2, 
+section h3,
+form button,
+footer nav{
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    padding: 16px;
+    background-color: #182c61;
+    color: #ecf0f1;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+header nav li ,
+footer nav li{
+    display: inline;
+    margin-left: 16px;
+}
+
+
+header nav li a,
+footer nav li a {
+    color: #ecf0f1;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container,
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-listy img {
+    height: 24px;
+}
+
+.brands-listy li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px;
+    color: #182c61;
+}
+
+section h2 {
+    margin-bottom: 16px;
+
+}
+
+section p {
+    margin-bottom: 8px;
+
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+    display: inline;
+    text-decoration: none
+}
+
+.social-links li {
+    margin-right: 12px;
+    display: inline;
+    text-decoration: none
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    height: 180px;
+    resize: none;
+}
+
+button{
+    background-color: #182c61;
+    border-radius: 5px;
+    color: #ecf0f1;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #0e3295;
+}
+
+form:focus, textarea:focus {
+outline-color: #182c61;
+}
+
+footer{
+    background-color: #182c61;
+    padding: 16px 0;
+    color: #ecf0f1;
+}
+footer p{
+    font-size: 20px;
+}
